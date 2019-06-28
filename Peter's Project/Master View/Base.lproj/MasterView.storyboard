@@ -18,11 +18,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Nyg-2T-N0k">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Nyg-2T-N0k">
                                 <rect key="frame" x="266" y="126" width="492" height="516"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JO8-Ec-OcW">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="JO8-Ec-OcW">
                                         <rect key="frame" x="0.0" y="0.0" width="492" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="yYg-rW-tjT"/>
+                                        </constraints>
                                         <string key="text">The Navigation Controller and following buttons are to check the views, 
 they can be deleted for continuing design.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -47,6 +50,9 @@ they can be deleted for continuing design.</string>
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="umS-p7-uFm"/>
+                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="wbb-D5-rfb">
                                         <rect key="frame" x="0.0" y="126" width="492" height="30"/>
@@ -66,6 +72,9 @@ they can be deleted for continuing design.</string>
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="bgz-Kt-Sqf"/>
+                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="PDr-Jt-qgT">
                                         <rect key="frame" x="0.0" y="186" width="492" height="30"/>
@@ -85,6 +94,9 @@ they can be deleted for continuing design.</string>
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="StQ-DM-42J"/>
+                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="RcX-W6-MZG">
                                         <rect key="frame" x="0.0" y="246" width="492" height="30"/>
@@ -104,6 +116,9 @@ they can be deleted for continuing design.</string>
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="1ts-K8-dMt"/>
+                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="8kN-QI-kKs">
                                         <rect key="frame" x="0.0" y="306" width="492" height="30"/>
@@ -123,6 +138,9 @@ they can be deleted for continuing design.</string>
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="EH2-gG-woZ"/>
+                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="g1k-Zs-7qq">
                                         <rect key="frame" x="0.0" y="366" width="492" height="30"/>
@@ -142,6 +160,9 @@ they can be deleted for continuing design.</string>
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="8dD-JX-IJY"/>
+                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="8lV-hW-UbC">
                                         <rect key="frame" x="0.0" y="426" width="492" height="30"/>
@@ -161,6 +182,9 @@ they can be deleted for continuing design.</string>
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="BOD-Of-nYW"/>
+                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="XZJ-ef-jiT">
                                         <rect key="frame" x="0.0" y="486" width="492" height="30"/>
@@ -176,13 +200,23 @@ they can be deleted for continuing design.</string>
                                                 <rect key="frame" x="295" y="0.0" width="197" height="30"/>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="dbo-bB-oxf"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Nyg-2T-N0k" secondAttribute="height" multiplier="41:43" id="hc6-cb-bMQ"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Nyg-2T-N0k" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OFr-yC-hEa"/>
+                            <constraint firstItem="Nyg-2T-N0k" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Zxv-KP-L58"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Nyg-2T-N0k" secondAttribute="bottom" constant="20" id="eFq-MJ-XPu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Nyg-2T-N0k" secondAttribute="trailing" constant="20" id="kPv-dc-fF3"/>
+                            <constraint firstItem="Nyg-2T-N0k" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="o7G-4K-kvL"/>
                             <constraint firstItem="Nyg-2T-N0k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oNQ-Q4-g3E"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
