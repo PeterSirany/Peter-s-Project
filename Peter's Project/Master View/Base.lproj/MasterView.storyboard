@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="399-P6-7gK">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Menu-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MasterViewController" customModule="Peter_s_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="BL4-jf-93q">
+                                <rect key="frame" x="377" y="164" width="268" height="443"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="CpP-ja-hme">
+                                        <rect key="frame" x="0.0" y="0.0" width="268" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zr1-ko-KQE">
+                                                <rect key="frame" x="0.0" y="0.0" width="85" height="30"/>
+                                                <state key="normal" title="View 1"/>
+                                                <connections>
+                                                    <segue destination="QLi-OK-2kr" kind="show" id="Um4-35-Ttd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dAc-Sn-E8r">
+                                                <rect key="frame" x="183" y="0.0" width="85" height="30"/>
+                                                <state key="normal" title="View 1a"/>
+                                                <connections>
+                                                    <segue destination="H4d-9z-jDk" kind="show" id="bfe-Sf-hjH"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="wbb-D5-rfb">
+                                        <rect key="frame" x="0.0" y="59" width="268" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sr8-bb-T62">
+                                                <rect key="frame" x="0.0" y="0.0" width="85" height="30"/>
+                                                <state key="normal" title="View 2"/>
+                                                <connections>
+                                                    <segue destination="Jy0-JV-4mL" kind="show" id="zVH-px-4EM"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mjF-FE-pUg">
+                                                <rect key="frame" x="183" y="0.0" width="85" height="30"/>
+                                                <state key="normal" title="View 2a"/>
+                                                <connections>
+                                                    <segue destination="jkn-CE-tfp" kind="show" id="NBX-aN-pzK"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="PDr-Jt-qgT">
+                                        <rect key="frame" x="0.0" y="118" width="268" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSP-Z1-ovz">
+                                                <rect key="frame" x="0.0" y="0.0" width="85" height="30"/>
+                                                <state key="normal" title="View 3"/>
+                                                <connections>
+                                                    <segue destination="xgO-Sr-WJo" kind="show" id="kYA-Lh-R4q"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qwH-1Y-gPa">
+                                                <rect key="frame" x="183" y="0.0" width="85" height="30"/>
+                                                <state key="normal" title="View 2b"/>
+                                                <connections>
+                                                    <segue destination="9E7-Aq-aRO" kind="show" id="TOg-KV-5jr"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="RcX-W6-MZG">
+                                        <rect key="frame" x="0.0" y="177" width="268" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Auc-Qy-7Td">
+                                                <rect key="frame" x="0.0" y="0.0" width="85" height="30"/>
+                                                <state key="normal" title="View 4"/>
+                                                <connections>
+                                                    <segue destination="KHR-rq-0Ak" kind="show" id="h8A-IH-fsd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vsl-bH-che">
+                                                <rect key="frame" x="183" y="0.0" width="85" height="30"/>
+                                                <state key="normal" title="Tab A"/>
+                                                <connections>
+                                                    <segue destination="mAl-JK-eYq" kind="show" id="Jyw-qY-QVG"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="8kN-QI-kKs">
+                                        <rect key="frame" x="0.0" y="236" width="268" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cge-uy-Kan">
+                                                <rect key="frame" x="0.0" y="0.0" width="85" height="30"/>
+                                                <state key="normal" title="View 5"/>
+                                                <connections>
+                                                    <segue destination="Rgk-8O-adB" kind="show" id="HAf-a8-I5M"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PDo-7W-bdf">
+                                                <rect key="frame" x="183" y="0.0" width="85" height="30"/>
+                                                <state key="normal" title="Tab B"/>
+                                                <connections>
+                                                    <segue destination="ONS-Af-wgS" kind="show" id="RzE-er-f3k"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="g1k-Zs-7qq">
+                                        <rect key="frame" x="0.0" y="295" width="268" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLi-gv-sNR">
+                                                <rect key="frame" x="0.0" y="0.0" width="85" height="30"/>
+                                                <state key="normal" title="Page View 1"/>
+                                                <connections>
+                                                    <segue destination="hZ4-6K-rkt" kind="show" id="shy-P3-qcZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNc-MM-dUa">
+                                                <rect key="frame" x="183" y="0.0" width="85" height="30"/>
+                                                <state key="normal" title="Tab C"/>
+                                                <connections>
+                                                    <segue destination="dsX-bk-Mw1" kind="show" id="zV3-rT-1Va"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="8lV-hW-UbC">
+                                        <rect key="frame" x="0.0" y="354" width="268" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o5b-H6-5xJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="85" height="30"/>
+                                                <state key="normal" title="Page View 2"/>
+                                                <connections>
+                                                    <segue destination="vj8-Z0-3D6" kind="show" id="BLs-1Q-F6r"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLy-TD-aCo">
+                                                <rect key="frame" x="183" y="0.0" width="85" height="30"/>
+                                                <state key="normal" title="Tab D"/>
+                                                <connections>
+                                                    <segue destination="PGM-Qa-wAy" kind="show" id="6Vb-uc-uD2"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="XZJ-ef-jiT">
+                                        <rect key="frame" x="0.0" y="413" width="268" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kX3-As-q5E">
+                                                <rect key="frame" x="0.0" y="0.0" width="85" height="30"/>
+                                                <state key="normal" title="Page View 3"/>
+                                                <connections>
+                                                    <segue destination="MZr-KU-gi4" kind="show" id="EI6-R5-Rn3"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wo7-Tz-4Of">
+                                                <rect key="frame" x="183" y="0.0" width="85" height="30"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Main Menu" id="44N-ob-sLW">
+                        <barButtonItem key="backBarButtonItem" title="Return" id="4Kb-BU-qkW"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="745.8984375" y="23.4375"/>
+        </scene>
+        <!--ViewTwo-->
+        <scene sceneID="v9j-0J-euX">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ViewTwo" id="Jy0-JV-4mL" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rw6-XV-IJT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1185" y="-209"/>
+        </scene>
+        <!--ViewOneAlpha-->
+        <scene sceneID="xIR-KO-B3m">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ViewOneAlpha" id="H4d-9z-jDk" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Csy-sF-gEd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1215" y="-279"/>
+        </scene>
+        <!--ViewOne-->
+        <scene sceneID="YTR-Jw-iaU">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ViewOne" id="QLi-OK-2kr" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m5a-ln-7Yg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1185.64453125" y="-318.75"/>
+        </scene>
+        <!--ViewTwoAlpha-->
+        <scene sceneID="zoy-y5-UVy">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ViewTwoAlpha" id="jkn-CE-tfp" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4qQ-it-EEo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1215" y="-166"/>
+        </scene>
+        <!--ViewThree-->
+        <scene sceneID="fqF-xb-k5z">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ViewThree" id="xgO-Sr-WJo" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u8B-Vc-dPw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1189" y="-72"/>
+        </scene>
+        <!--ViewTwoBravo-->
+        <scene sceneID="gwy-uZ-OnA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ViewTwoBravo" id="9E7-Aq-aRO" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AQj-rW-8It" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1215" y="-124"/>
+        </scene>
+        <!--ViewFour-->
+        <scene sceneID="WTT-rl-BAQ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ViewFour" id="KHR-rq-0Ak" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ejq-aT-2uw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1186" y="-13"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Grf-lW-bEl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="399-P6-7gK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XTU-3J-TWF">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="86E-Hd-Xwa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ShF-gb-9j1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113.67187499999999" y="-661.71875"/>
+        </scene>
+        <!--ViewFive-->
+        <scene sceneID="w3c-WF-3f1">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ViewFive" id="Rgk-8O-adB" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O5W-Ka-7fq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1186" y="43"/>
+        </scene>
+        <!--PageOne-->
+        <scene sceneID="TgP-vN-Kbo">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PageOne" id="hZ4-6K-rkt" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9rY-hJ-pna" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1189" y="177"/>
+        </scene>
+        <!--PageTwo-->
+        <scene sceneID="3Vy-kb-JK9">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PageTwo" id="vj8-Z0-3D6" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vys-if-Try" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1189" y="248"/>
+        </scene>
+        <!--PageThree-->
+        <scene sceneID="dDF-zT-zGG">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PageThree" id="MZr-KU-gi4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="36l-SI-L1f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1189" y="313"/>
+        </scene>
+        <!--TabViewA-->
+        <scene sceneID="Etb-mg-XPk">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TabViewA" id="mAl-JK-eYq" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ixZ-Fa-dpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="473" y="393"/>
+        </scene>
+        <!--TabViewB-->
+        <scene sceneID="WVj-95-Cf4">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TabViewB" id="ONS-Af-wgS" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bzu-nH-Bw4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="532" y="393"/>
+        </scene>
+        <!--TabViewC-->
+        <scene sceneID="1g6-DO-kWz">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TabViewC" id="dsX-bk-Mw1" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yZN-k3-LDH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="591" y="393"/>
+        </scene>
+        <!--TabViewD-->
+        <scene sceneID="cp9-SF-8bV">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TabViewD" id="PGM-Qa-wAy" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="16s-f3-YZR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="649" y="393"/>
+        </scene>
+    </scenes>
+</document>
