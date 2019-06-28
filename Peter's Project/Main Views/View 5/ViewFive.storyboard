@@ -20,7 +20,7 @@
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b68-QN-l9b">
                                 <rect key="frame" x="110" y="157" width="610" height="194"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="Cq3-ra-Rff" kind="embed" id="GUd-Zy-gXO"/>
                                 </connections>
@@ -37,15 +37,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="View 5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGO-I0-J7w">
-                                <rect key="frame" x="483" y="373" width="57" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View 5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGO-I0-J7w">
+                                <rect key="frame" x="484.5" y="373" width="55" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CGO-I0-J7w" firstAttribute="centerY" secondItem="AKy-Lr-ntk" secondAttribute="centerY" id="0hN-Ux-WEp"/>
+                            <constraint firstItem="CGO-I0-J7w" firstAttribute="centerX" secondItem="AKy-Lr-ntk" secondAttribute="centerX" id="awN-Rb-bd5"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Zpg-Xi-QkB"/>
                     </view>
                 </viewController>

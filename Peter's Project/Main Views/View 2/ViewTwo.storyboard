@@ -20,7 +20,7 @@
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="twl-aV-TY8">
                                 <rect key="frame" x="110" y="157" width="365" height="194"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="Xkq-jo-R9S" kind="embed" identifier="EmbeddedViewTwoContainerView" id="nHX-tF-D9z"/>
                                 </connections>
@@ -49,15 +49,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="View 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Juc-nx-9k5">
-                                <rect key="frame" x="483" y="374" width="55" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Juc-nx-9k5">
+                                <rect key="frame" x="484.5" y="373" width="55" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Juc-nx-9k5" firstAttribute="centerY" secondItem="EHU-ye-MjP" secondAttribute="centerY" id="ypy-vq-Hn9"/>
+                            <constraint firstItem="Juc-nx-9k5" firstAttribute="centerX" secondItem="EHU-ye-MjP" secondAttribute="centerX" id="yxh-ln-UQy"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ME4-In-mRb"/>
                     </view>
                 </viewController>

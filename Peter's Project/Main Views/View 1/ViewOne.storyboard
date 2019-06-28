@@ -28,15 +28,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button 2"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="View 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4z-Fi-g3m">
-                                <rect key="frame" x="483" y="376" width="52" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4z-Fi-g3m">
+                                <rect key="frame" x="486" y="373" width="52" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="o4z-Fi-g3m" firstAttribute="centerX" secondItem="5Yk-SA-HeX" secondAttribute="centerX" id="DU9-GH-az0"/>
+                            <constraint firstItem="o4z-Fi-g3m" firstAttribute="centerY" secondItem="5Yk-SA-HeX" secondAttribute="centerY" id="ofc-vG-egC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Ojq-vd-SYs"/>
                     </view>
                 </viewController>

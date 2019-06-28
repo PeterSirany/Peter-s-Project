@@ -18,15 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tab View A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LC7-DX-0Jd">
-                                <rect key="frame" x="466" y="375" width="90" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tab View A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LC7-DX-0Jd">
+                                <rect key="frame" x="467" y="373" width="90" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LC7-DX-0Jd" firstAttribute="centerX" secondItem="ULn-WZ-4kC" secondAttribute="centerX" id="Wh4-r1-Kry"/>
+                            <constraint firstItem="LC7-DX-0Jd" firstAttribute="centerY" secondItem="ULn-WZ-4kC" secondAttribute="centerY" id="gvn-8I-TJ6"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="lXX-Ju-j4B"/>
                     </view>
                 </viewController>

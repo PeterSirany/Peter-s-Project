@@ -18,22 +18,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="BL4-jf-93q">
-                                <rect key="frame" x="377" y="164" width="268" height="443"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Nyg-2T-N0k">
+                                <rect key="frame" x="266" y="126" width="492" height="516"/>
                                 <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JO8-Ec-OcW">
+                                        <rect key="frame" x="0.0" y="0.0" width="492" height="36"/>
+                                        <string key="text">The Navigation Controller and following buttons are to check the views, 
+they can be deleted for continuing design.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="CpP-ja-hme">
-                                        <rect key="frame" x="0.0" y="0.0" width="268" height="30"/>
+                                        <rect key="frame" x="0.0" y="66" width="492" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zr1-ko-KQE">
-                                                <rect key="frame" x="0.0" y="0.0" width="85" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="197" height="30"/>
                                                 <state key="normal" title="View 1"/>
                                                 <connections>
                                                     <segue destination="QLi-OK-2kr" kind="show" id="Um4-35-Ttd"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dAc-Sn-E8r">
-                                                <rect key="frame" x="183" y="0.0" width="85" height="30"/>
+                                                <rect key="frame" x="295" y="0.0" width="197" height="30"/>
                                                 <state key="normal" title="View 1a"/>
                                                 <connections>
                                                     <segue destination="H4d-9z-jDk" kind="show" id="bfe-Sf-hjH"/>
@@ -42,17 +49,17 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="wbb-D5-rfb">
-                                        <rect key="frame" x="0.0" y="59" width="268" height="30"/>
+                                        <rect key="frame" x="0.0" y="126" width="492" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sr8-bb-T62">
-                                                <rect key="frame" x="0.0" y="0.0" width="85" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="197" height="30"/>
                                                 <state key="normal" title="View 2"/>
                                                 <connections>
                                                     <segue destination="Jy0-JV-4mL" kind="show" id="zVH-px-4EM"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mjF-FE-pUg">
-                                                <rect key="frame" x="183" y="0.0" width="85" height="30"/>
+                                                <rect key="frame" x="295" y="0.0" width="197" height="30"/>
                                                 <state key="normal" title="View 2a"/>
                                                 <connections>
                                                     <segue destination="jkn-CE-tfp" kind="show" id="NBX-aN-pzK"/>
@@ -61,17 +68,17 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="PDr-Jt-qgT">
-                                        <rect key="frame" x="0.0" y="118" width="268" height="30"/>
+                                        <rect key="frame" x="0.0" y="186" width="492" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSP-Z1-ovz">
-                                                <rect key="frame" x="0.0" y="0.0" width="85" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="197" height="30"/>
                                                 <state key="normal" title="View 3"/>
                                                 <connections>
                                                     <segue destination="xgO-Sr-WJo" kind="show" id="kYA-Lh-R4q"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qwH-1Y-gPa">
-                                                <rect key="frame" x="183" y="0.0" width="85" height="30"/>
+                                                <rect key="frame" x="295" y="0.0" width="197" height="30"/>
                                                 <state key="normal" title="View 2b"/>
                                                 <connections>
                                                     <segue destination="9E7-Aq-aRO" kind="show" id="TOg-KV-5jr"/>
@@ -80,17 +87,17 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="RcX-W6-MZG">
-                                        <rect key="frame" x="0.0" y="177" width="268" height="30"/>
+                                        <rect key="frame" x="0.0" y="246" width="492" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Auc-Qy-7Td">
-                                                <rect key="frame" x="0.0" y="0.0" width="85" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="197" height="30"/>
                                                 <state key="normal" title="View 4"/>
                                                 <connections>
                                                     <segue destination="KHR-rq-0Ak" kind="show" id="h8A-IH-fsd"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vsl-bH-che">
-                                                <rect key="frame" x="183" y="0.0" width="85" height="30"/>
+                                                <rect key="frame" x="295" y="0.0" width="197" height="30"/>
                                                 <state key="normal" title="Tab A"/>
                                                 <connections>
                                                     <segue destination="mAl-JK-eYq" kind="show" id="Jyw-qY-QVG"/>
@@ -99,17 +106,17 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="8kN-QI-kKs">
-                                        <rect key="frame" x="0.0" y="236" width="268" height="30"/>
+                                        <rect key="frame" x="0.0" y="306" width="492" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cge-uy-Kan">
-                                                <rect key="frame" x="0.0" y="0.0" width="85" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="197" height="30"/>
                                                 <state key="normal" title="View 5"/>
                                                 <connections>
                                                     <segue destination="Rgk-8O-adB" kind="show" id="HAf-a8-I5M"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PDo-7W-bdf">
-                                                <rect key="frame" x="183" y="0.0" width="85" height="30"/>
+                                                <rect key="frame" x="295" y="0.0" width="197" height="30"/>
                                                 <state key="normal" title="Tab B"/>
                                                 <connections>
                                                     <segue destination="ONS-Af-wgS" kind="show" id="RzE-er-f3k"/>
@@ -118,17 +125,17 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="g1k-Zs-7qq">
-                                        <rect key="frame" x="0.0" y="295" width="268" height="30"/>
+                                        <rect key="frame" x="0.0" y="366" width="492" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLi-gv-sNR">
-                                                <rect key="frame" x="0.0" y="0.0" width="85" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="197" height="30"/>
                                                 <state key="normal" title="Page View 1"/>
                                                 <connections>
                                                     <segue destination="hZ4-6K-rkt" kind="show" id="shy-P3-qcZ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNc-MM-dUa">
-                                                <rect key="frame" x="183" y="0.0" width="85" height="30"/>
+                                                <rect key="frame" x="295" y="0.0" width="197" height="30"/>
                                                 <state key="normal" title="Tab C"/>
                                                 <connections>
                                                     <segue destination="dsX-bk-Mw1" kind="show" id="zV3-rT-1Va"/>
@@ -137,17 +144,17 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="8lV-hW-UbC">
-                                        <rect key="frame" x="0.0" y="354" width="268" height="30"/>
+                                        <rect key="frame" x="0.0" y="426" width="492" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o5b-H6-5xJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="85" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="197" height="30"/>
                                                 <state key="normal" title="Page View 2"/>
                                                 <connections>
                                                     <segue destination="vj8-Z0-3D6" kind="show" id="BLs-1Q-F6r"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLy-TD-aCo">
-                                                <rect key="frame" x="183" y="0.0" width="85" height="30"/>
+                                                <rect key="frame" x="295" y="0.0" width="197" height="30"/>
                                                 <state key="normal" title="Tab D"/>
                                                 <connections>
                                                     <segue destination="PGM-Qa-wAy" kind="show" id="6Vb-uc-uD2"/>
@@ -156,17 +163,17 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="XZJ-ef-jiT">
-                                        <rect key="frame" x="0.0" y="413" width="268" height="30"/>
+                                        <rect key="frame" x="0.0" y="486" width="492" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kX3-As-q5E">
-                                                <rect key="frame" x="0.0" y="0.0" width="85" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="197" height="30"/>
                                                 <state key="normal" title="Page View 3"/>
                                                 <connections>
                                                     <segue destination="MZr-KU-gi4" kind="show" id="EI6-R5-Rn3"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wo7-Tz-4Of">
-                                                <rect key="frame" x="183" y="0.0" width="85" height="30"/>
+                                                <rect key="frame" x="295" y="0.0" width="197" height="30"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -174,6 +181,10 @@
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Nyg-2T-N0k" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OFr-yC-hEa"/>
+                            <constraint firstItem="Nyg-2T-N0k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oNQ-Q4-g3E"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Main Menu" id="44N-ob-sLW">
@@ -256,7 +267,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ShF-gb-9j1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="113.67187499999999" y="-661.71875"/>
+            <point key="canvasLocation" x="109" y="23"/>
         </scene>
         <!--ViewFive-->
         <scene sceneID="w3c-WF-3f1">

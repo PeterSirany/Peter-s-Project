@@ -18,15 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tab View C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h31-hL-E7E">
-                                <rect key="frame" x="465.43017383952451" y="374.51477009010273" width="91" height="21.999999999999986"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tab View C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h31-hL-E7E">
+                                <rect key="frame" x="466.5" y="373" width="91" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="h31-hL-E7E" firstAttribute="centerX" secondItem="6Nq-6J-4EW" secondAttribute="centerX" id="Ubi-97-mx8"/>
+                            <constraint firstItem="h31-hL-E7E" firstAttribute="centerY" secondItem="6Nq-6J-4EW" secondAttribute="centerY" id="cPu-mn-d0Y"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Vkh-vL-Wye"/>
                     </view>
                 </viewController>

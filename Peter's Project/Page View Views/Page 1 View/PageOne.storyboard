@@ -22,15 +22,18 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page View Image" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISg-Vs-hr0">
-                                <rect key="frame" x="441.20486103661142" y="375.33715312792719" width="139.00000000000003" height="22.000000000000014"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Page View Image" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISg-Vs-hr0">
+                                <rect key="frame" x="442.5" y="373" width="139" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ISg-Vs-hr0" firstAttribute="centerY" secondItem="AdP-vL-dnt" secondAttribute="centerY" id="EIB-HV-G4w"/>
+                            <constraint firstItem="ISg-Vs-hr0" firstAttribute="centerX" secondItem="AdP-vL-dnt" secondAttribute="centerX" id="bAS-dd-v7R"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="LMM-ZG-3Td"/>
                     </view>
                 </viewController>
